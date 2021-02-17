@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+body {
+    font-family: 'Exo 2', Helvetica, Arial, sans-serif;
+    padding-top: 5rem;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+}
+
+#logo {
+    width: 150px;
+}
+
+.bg-dark {
+    background-color: #040707 !important;
+}
+
+.yellow {
+    background-color: #FFBF18;
+}
+
+.card-img-custom {
+    width: 120px;
+    padding: 10px;
+    margin: auto;
+}
+
+.custom-flex-container {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: inherit;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 0.25rem;
+    border: 1px solid #c29218;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card-body {
+    padding: 0.7rem;
+}
+
+.invisible-card {
+    border: 0;
+}
+
+.hover-card:hover {
+    background-color: #FFBF18;
+}
+
+.developer {
+    font-size: 0.6rem;
+    margin-bottom: 2px;
+}
+
+.main-star {
+    color: #c19b3c;
+}
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+    #logo {
+        width: 95px;
+    }
+    
+    .card-img-custom {
+        width: 120px;
+        padding: 10px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1199.98px) {}
+
+/* X-Large devices (large desktops, less than 1400px) */
+
+@media (max-width: 1399.98px) {}
