@@ -1,0 +1,124 @@
+body {
+    padding-top: 5rem;
+}
+.starter-template {
+    padding: 1.5rem 1.5rem;
+    text-align: center;
+}
+
+.purple-background {
+    background-color: #5C3287 !important;
+    text-align: left
+}
+
+.navbar-brand {
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin-left: 5%;
+}
+
+.search-custom-buttom {
+    background-color: #440F71;
+    color: #fff;
+}
+
+.search-custom-buttom:hover {
+    background-color: #6b25a9;
+    color: #fff !important;
+}
+
+.custom-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-item {
+    flex-basis: 300px;
+    /* flex-grow: 1; */
+    width: 400px;
+    flex-shrink: 1;
+}
+
+.flex-item button {
+    width: 100%;
+}
+
+.radius-item {
+    border-radius: 100px;
+}
+
+.custom-button-dropdown {
+    background-color: #fff;
+    color:#5C3287;
+}
+
+.custom-button-dropdown:hover {
+    color:#5C3287 !important;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.config-text {
+    color:#5C3287;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+.config-gray-text {
+    color:#757575;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.price-text {
+    color:#585858;
+    font-size: 1.2rem;
+    text-align: right;
+    font-weight: 500;
+}
+
+.config-white-text {
+    color:#fff;
+}
+.bold-text {
+    font-weight: 900;
+}
+
+.thin-text {
+    font-weight: lighter;
+}
+
+.p-margin {
+    margin-bottom: -0.5rem !important;
+}
+
+.row {
+    margin-top: 2%;
+}
+
+.card {
+    border-radius: 25px;
+}
+
+.card i {
+    font-size: 3rem;
+    color: #fff;
+    text-align: left;
+    padding: 1rem;
+}
+
+.card h4 {
+    font-weight: 800;
+    margin-bottom: 1%;
+}
+
+.custom-card-text {
+    color: #fff;
+    text-align: left;
+}
+
+.modal-content {
+    border: none;
+}
